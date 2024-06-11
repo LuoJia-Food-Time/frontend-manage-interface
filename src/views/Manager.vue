@@ -4,7 +4,7 @@
     <div class="manager-header">
       <div class="manager-header-left">
         <img src="@/assets/imgs/logo.png" />
-        <div class="title">考拉外卖后台管理</div>
+        <div class="title">珞珈食刻达</div>
       </div>
 
       <div class="manager-header-center">

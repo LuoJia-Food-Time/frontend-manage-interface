@@ -30,7 +30,7 @@
         <el-table-column prop="origin" label="原材料"></el-table-column>
         <el-table-column prop="taste" label="口味"></el-table-column>
         <el-table-column prop="specs" label="规格"></el-table-column>
-        <el-table-column prop="nutritionId" label="营养成分"></el-table-column>
+        <el-table-column prop="nutritionInfo" label="营养成分"></el-table-column>
         <el-table-column prop="date" label="上架日期"></el-table-column>
         <el-table-column prop="status" label="上架状态">
           <template v-slot="scope">
@@ -91,8 +91,8 @@
         <el-form-item label="口味" prop="taste">
           <el-input v-model="form.taste" placeholder="口味"></el-input>
         </el-form-item>
-        <el-form-item label="营养成分" prop="nutritionId">
-          <el-input v-model="form.nutritionId" placeholder="营养成分"></el-input>
+        <el-form-item label="营养成分" prop="nutritionInfo">
+          <el-input v-model="form.nutritionInfo" placeholder="营养成分"></el-input>
         </el-form-item>
         <el-form-item label="规格" prop="specs">
           <el-input v-model="form.specs" placeholder="规格"></el-input>
